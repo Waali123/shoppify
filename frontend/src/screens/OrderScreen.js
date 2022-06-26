@@ -212,7 +212,7 @@ const OrderScreen = ({ match, history }) => {
                       onSuccess={successPaymentHandler}
                     />
                   )} */}
-                      {<Button onClick={() => successPaymentHandler(paymentResult)} variant="success" size="lg" active>
+                      {<Button type='button' onClick={() => successPaymentHandler(paymentResult)} variant="success" size="lg" active  className='btn-block'>
                         Pay Now
                       </Button>}
                 </ListGroup.Item>
